@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hidden Inequities in Labor-Based Contract Grading</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    color: black;
+  }
+  .title-banner {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  .subheading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .yellow-box {
+    background-color: lightyellow;
+    padding: 10px;
+    text-align: center;
+  }
+  .button-container {
+    text-align: center;
+    padding: 20px;
+  }
+  .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #35424a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .image {
+    flex: 1;
+    padding: 0 20px 0 0;
+    max-width: 40%;
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .title {
+    flex: 1;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="title-banner">
+  <h1>The Hidden Inequities in Labor-Based Contract Grading</h1>
+  <p class="subheading">By Ellen C. Carillo</p>
+  <p class="subheading">Review by Sarah Faye, Joe Schicke, and Jacob Weston</p>
+  <div class="yellow-box">
+    <p><strong>Podcast Review</strong></p>
+    <audio controls>
+      <source src="your-audio-file.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
+<div class="button-container">
+  <div class="button" onclick="openText('Introduction and Chapter 1')">Introduction and Chapter 1</div>
+  <div class="button" onclick="openText('Chapter 2 and 3')">Chapter 2 and 3</div>
+  <div class="button" onclick="openText('Chapter 4 and 5')">Chapter 4 and 5</div>
+  <div class="button" onclick="openText('Chapter 6')">Chapter 6</div>
+</div>
+
+<div class="content">
+  <div class="image">
+    <a href="https://ibb.co/9N1J9Ny">
+      <img src="https://i.ibb.co/XbK9ZbF/hidden-inequalities.jpg" alt="hidden-inequalities" style="max-width: 100%;" />
+    </a>
+  </div>
+  <div class="title">
+    <h2 id="chapterTitle">Chapter Title</h2>
+  </div>
+</div>
+
+<script>
+  function openText(title) {
+    document.getElementById("chapterTitle").innerText = title;
+  }
+</script>
+
+</body>
+</html>
