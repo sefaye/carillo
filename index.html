@@ -63,8 +63,17 @@ Our original conversation has been edited down to about half an hour of content,
     <audio controls>
         <source src="Carillo assumptions.mp3" type="audio/mpeg">
     </audio>
-    <p style="text-align: center;">Transcript.<
-        <a href="https://doi.org/10.1080/17425964.2010.518667">Transcript</a></p>
+   <button id="openPdfButton">Transcript</button>
+
+    <div id="pdfContainer" style="display: none;">
+        <iframe id="pdfViewer" src="https://github.com/sefaye/carillo/raw/main/Assumptions.pdf" width="100%" height="500"></iframe>
+    </div>
+
+    <script>
+        document.getElementById("openPdfButton").addEventListener("click", function() {
+            document.getElementById("pdfContainer").style.display = "block";
+        });
+    </script>
     <img src="assumptions.jpg" alt="A collage of diverse classroom settings with students of various identities.">
 <br>
 <br>
